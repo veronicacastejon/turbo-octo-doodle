@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/019/015/328/non_2x/seamless-pattern-with-small-hearts-repeating-texture-with-pink-heart-on-white-background-repeatable-backdrop-with-hand-drawn-tiny-hearts-vector.jpg");
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+header {
+    width: 100%;
+    height: 100%;
+}
+header nav {
+    display: flex;
+    justify-content: flex-end;
+}
+header nav .nav-right-section {
+    width: 250px;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+nav .nav-right-section a {
+    margin-right: 10px;
+    color: #F72798;
+}
+nav .nav-right-section .menu-icon {
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/53f59ee3-60ce-4d32-8885-c6f05457259c/dfo4p1a-490f09e9-0bab-4ad9-8ebb-3521e21a2f30.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzUzZjU5ZWUzLTYwY2UtNGQzMi04ODg1LWM2ZjA1NDU3MjU5Y1wvZGZvNHAxYS00OTBmMDllOS0wYmFiLTRhZDktOGViYi0zNTIxZTIxYTJmMzAucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.76C01k1GHSAJQdCfAE2EZjv7TeiTu4bU9DqKTbNZWAY");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+}
+nav .nav-right-section img {
+    border-radius: 50%;
+    margin-left: 10px;   
+}
+
+main {
+    margin-top: 150px;
+    text-align: center;
+}
+main .main-logo {
+    width: 650px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+main .main-logo img {
+    width: 400px;
+}
+main .main-input {
+    width: 630px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+main .main-input-container {
+    width: 625px;
+    border-radius: 100px;
+    border: 1px solid #FFCAD4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .main-input input {
+    width: 570px;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+main .main-input-container:hover  {
+    box-shadow: 0 1px 6px 0 #FFCAD4;
+    border-color: #EE99C2;
+}
+main .main-input .search-icon {
+    background-image: url("https://images.vexels.com/media/users/3/200002/isolated/preview/55afc5b50590965e03ff9e389f4afd79-magnifying-glass-stroke-icon-pink.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+}
+main .main-input .micro-icon {
+    background-image: url("https://static.vecteezy.com/system/resources/previews/008/302/320/original/eps10-pink-microphone-icon-or-logo-in-simple-flat-trendy-modern-style-isolated-on-white-background-free-vector.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    cursor: pointer; 
+}
+main .main-buttons {
+    width: 570px;
+    margin: 0 auto ;
+}
+main .main-buttons div {
+    display: inline-block;
+}
+main .main-buttons button {
+    height: 36px;
+    background-color: #F72798;
+    border: 0;
+    font-size: 14px;
+    color: #FEFBF6;
+    border-radius: 5px;
+    padding: 0 15px;
+    margin-right: 15px;
+}
+main .main-buttons button:hover {
+    border: 1px solid #FFCAD4;
+    box-shadow: 0 1px 1px #FB88B4;
+}
+footer {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 13px;
+    background-color: #FFCAD4;
+    border-top: #FB88B4;
+}
+footer ul {
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+footer .footer-left {
+    justify-self: left;
+}
+footer .footer-rigth {
+    justify-self: right;
+}
+footer ul li a {
+    margin: 10px;
+    color: #FEFBF6;
+}
